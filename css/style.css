@@ -1,5 +1,9 @@
-body {
+html {
   background-color: #1F1F20;
+  min-height: 100%;
+  background-image: radial-gradient(circle, rgba(255,138,0, 0.3) 0%, rgba(31,31,32,1) 40%);
+  background-position: 45rem 30rem;
+  background-repeat: no-repeat;
 }
 
 * {
