@@ -2,6 +2,7 @@
 
 html {
   background-color: #1F1F20;
+  scroll-behavior: smooth;
 }
 
 * {
@@ -87,25 +88,20 @@ p {
   text-align: justify;
 }
 
-.reveal{
-  position: relative;
-  transform: translateY(150px);
-  opacity: 0;
-  transition: 1s all ease;
-}
-reveal.active{
-  transform:translateY(0);
-  opacity: 1;
-}
-
 .reveal {
   position: relative;
-  transform: translateY(150px);
+  transform: translateX(-150px);
   opacity: 0;
   transition: 1s all ease;
 }
 
 .reveal.active {
-  transform: translateY(0);
+  transform: translateX(0);
   opacity: 1;
+}
+
+@media(prefers-reduced-motion) {
+  .hidden {
+    transition: none;
+  }
 }
