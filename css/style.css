@@ -44,10 +44,6 @@ html {
   margin: auto 30px;
 }
 
-.scroll-cards{
-  scroll-snap-type: y mandatory;
-}
-
 .week-card {
   background-color: #110F0F;
   display: inline-flex;
@@ -59,8 +55,6 @@ html {
   border-color: #FF8A00;
   border-style: solid;
   border-radius: 30px;
-
-  scroll-snap-align: start;
 }
 
 h1 {
@@ -92,10 +86,11 @@ p {
   position: relative;
   transform: translateX(-150px);
   opacity: 0;
-  transition: 1s all ease;
+  transition: 3s all ease;
 }
 
 .reveal.active {
+  height: 100vh;
   transform: translateX(0);
   opacity: 1;
 }
