@@ -1,4 +1,4 @@
-# IXXN221 Project 2 Web Design
+# IXXN221 Project 3 Web Design
 ## Khai Sheak 2023
 
-time to talk about things
+This is my blog post for webdesign I (IXXN221).
